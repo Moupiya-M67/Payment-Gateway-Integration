@@ -1,6 +1,7 @@
 .about-section{
     background-color: rgb(238, 244, 248);
     height: 100vh;
+    height: auto;
     display: flex;
 }
 .about-box{
@@ -9,8 +10,9 @@
     display: flex;
     flex-direction: column;
     margin: 35px auto;
-    height: 450px;
-    width: 50%;
+    height: 560px;
+    height: auto;
+    width: 55%;
     
     
 }
@@ -39,4 +41,32 @@
     margin: 30px auto;
     color: #818181;
     line-height: 1.5;
+}
+.about-content p{
+    margin-bottom: 20px;
+}
+.about-content li{
+    margin-bottom: 10px;
+}
+.about-content h2{
+    margin-bottom: 5px; 
+}
+.social-links{
+    margin: 8px 0;
+}
+.icon-box{
+    display: flex;
+    justify-content: flex-end;
+}
+.icons{
+    margin: 12px;
+    padding: 3px;
+}
+.icons i{
+    color: #333;
+    width: 20px;
+}
+.icons i:hover{
+    transition: 0.3s;
+    color: #000;
 }
