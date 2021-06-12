@@ -63,22 +63,23 @@ html,body
     margin: 20px auto;
     margin: 20px 15px 20px 30px ;
     padding: 8px;
-    font-size: 20px;
+    
     list-style: none;
+
     /* border: 2px solid red; */
    
 }
 .nav-right li a{
     color: black;
     color: #333333;
-    font-weight: 600;
+    font-weight: 700;
+    font-size: 22px;
 }
 a{
     text-decoration: none;
   
 }
 .nav-right a:hover{
-    font-size: 20px;
     color: #fe695d;
     transition: 0.3s;
 }
@@ -90,7 +91,7 @@ a{
     background-color: #fe695d;
     color: #fff;
     font-family: 'Times New Roman', Times, serif; /*change later*/
-    font-size: 16px;
+    font-size: 17px;
     outline: none;
     border: 2px solid #fe695d;
     border-radius: 40px;

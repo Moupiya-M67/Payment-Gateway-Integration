@@ -4,6 +4,7 @@
     height: 100vh;
     height: auto;
     display: flex;
+    font-size: 17px;
 }
 .about-box{
     border: 1.5px solid #fff;
