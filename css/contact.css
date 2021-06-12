@@ -55,6 +55,8 @@
     align-items: center;
     border-radius: 50%;
     font-size: 22px;
+    color: #333;
+    border: 1.35px solid #333;
 }
 .container .info .box .contact-text{
     display: flex;
